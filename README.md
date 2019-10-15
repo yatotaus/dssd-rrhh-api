@@ -38,3 +38,15 @@ https://medium.com/@riskimidiw/rails-api-jwt-authentication-a04503ea3248
 - Run this project
         
         $ rails server 
+        
+
+## Endpoint table
+
+URL / ENDPOINT    |    VERB    |    DESCRIPTION   
+----------------- | ---------- | -------------- 
+/auth/login       |    POST    | Generate token
+/users            |    POST    | Create user      
+/users            |    GET     | Return all users
+/users/{username} |    GET     | Return user      
+/users/{username} |    PUT     | Update user      
+/users/{username} |   DELETE   | Destroy user     
